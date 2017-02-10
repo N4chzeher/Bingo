@@ -6,12 +6,12 @@ public class GameRunner {
     private GameState game;
     private Jugador player1;
     private Jugador player2;
-    private Bonbo bombo;
+    private Bombo bombo;
 
     public void run (){
 
         game = new GameState();
-        bombo =new Bonbo();
+        bombo =new Bombo();
 
         player1 =new Jugador("Diego");
         player2 = new Jugador("Alvaro");

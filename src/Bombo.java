@@ -7,11 +7,11 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * Created by NACHZEHER on 03/02/2017.
  */
-public class Bonbo {
+public class Bombo {
 
     private List <Integer> numeros =new ArrayList<>();
 
-    public Bonbo (){
+    public Bombo(){
 
         for (int i=0; i<10;i++){
 

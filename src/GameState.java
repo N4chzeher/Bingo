@@ -6,27 +6,18 @@ import java.util.concurrent.ThreadLocalRandom;
 public class GameState {
 
     private Integer numeroJugador1;
+    private Line linePlayer1;
+    private Line linePlayer2;
     private Integer numeroJugador2;
 
     // inicializa los numeros de los jugadores de manera aleatoria //
 
 
-    public void initPlayerNumbers() {
+    public void initPlayerLines() {
 
-        this.numeroJugador1 = ThreadLocalRandom.current().nextInt(0,10);
-
-
-        while (true){
-
-            int randomNum = ThreadLocalRandom.current().nextInt(0,10);
-
-            if (randomNum !=numeroJugador1){
-                this.numeroJugador2=randomNum;
-                return;
-            }
+        // Inicializar los numeros de los jugadores aleatoriamente
 
 
-        }
     }
 
 
